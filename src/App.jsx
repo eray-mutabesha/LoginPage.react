@@ -33,7 +33,7 @@ function App() {
         placeholder="Enter your name" 
         
         {...register("nomUser",{
-        minLength:{value:2,message:"your name must have at least 2 characters"}})}
+        minLength:{value:4,message:"your name must have at least 4 characters"}})}
         />
         {errors.nomUser && (
         <span style={{ color: 'red' }}>{errors.nomUser.message}</span>
@@ -42,7 +42,7 @@ function App() {
         <input type="password" 
         placeholder="Enter your password"  
         {...register("passworduser",{
-        minLength:{value:5,message:"identifient incorrect"}})}/>
+        minLength:{value:6,message:"Incorrect pass word"}})}/>
       {errors.passworduser && (
         <span style={{ color: 'red' }}>{errors.passworduser.message}</span>
       )}

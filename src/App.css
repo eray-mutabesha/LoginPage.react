@@ -1,5 +1,5 @@
 body{
-
+    background: linear-gradient(to right,white,rgba(1, 92, 1, 0.397));
  text-align: center;
 }
 main form{
@@ -46,7 +46,7 @@ button:hover{
 @media (max-width:425px){
  input{
      width: 300px;
-
+     
  }
 }
 @media (max-width:375px){
